@@ -1,0 +1,28 @@
+/* Estilos del sidebar */
+.sidebar {
+    width: 15%; /* Ancho del sidebar, ajusta según tus necesidades */
+    background-color: #f0f0f0; /* Color de fondo del sidebar */
+    padding: 20px; /* Espaciado interno del sidebar */
+    height:200px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar nav a {
+    text-decoration: none;
+    color: #333; /* Color del texto del enlace */
+    font-weight: bold;
+  }
+  
+  .sidebar nav a:hover {
+    color: #0066cc; /* Cambia el color al pasar el ratón por encima del enlace */
+  }
+  

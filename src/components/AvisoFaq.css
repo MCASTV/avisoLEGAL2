@@ -1,0 +1,64 @@
+/* AvisoFaq.css */
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.faq-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.faq-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.faq-card h4 {
+  background-color: green;
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid #2980b9;
+}
+
+.faq-card p {
+  color: #333;
+  font-size: 1.2rem;
+  padding: 20px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .faq-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.leer-mas {
+  display: block;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-top: 1px solid  gray;
+  transition: background-color 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.faq-card:hover .leer-mas {
+  opacity: 1;
+}
+
+.leer-mas:hover {
+  background-color:gray;
+  text-decoration: underline;
+}

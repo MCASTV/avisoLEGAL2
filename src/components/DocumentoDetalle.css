@@ -1,0 +1,40 @@
+/* DocumentoDetalle.css */
+
+.documento-detalle-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 08px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.documento-detalle-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.documento-detalle-content {
+  font-size: 1.4rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.documento-detalle-list {
+  margin-top: 15px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.documento-detalle-list-item {
+  margin-bottom: 8px;
+}
+
+.documento-detalle-list-item::before {
+  content: '•';
+  margin-right: 8px;
+  color: #333;
+}

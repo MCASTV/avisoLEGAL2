@@ -1,0 +1,39 @@
+/* Estilos para el navbar */
+.navbar {
+    background-color: #333; /* Fondo del navbar */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilos para el logo en el navbar */
+  .navbar-logo {
+    color: #fff; /* Color del texto del logo */
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos para la lista de menú en el navbar */
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  /* Estilos para cada ítem de menú en el navbar */
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  /* Estilos para el enlace de menú en el navbar */
+  .nav-link {
+    color: #fff; /* Color del texto del enlace de menú */
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Estilos para el enlace de menú al pasar el mouse */
+  .nav-link:hover {
+    color: #ffcc00; /* Cambia el color al pasar el mouse */
+  }
+  
